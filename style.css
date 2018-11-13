@@ -1,0 +1,51 @@
+
+.grid-4col {
+	display: grid;
+grid-template-columns:1fr 1fr 1fr 1fr:
+grid-gap: 2vh;
+border: 1px black solid;
+}
+
+.grid-colspan4 {
+	background-color: #D0F3FF
+	grid-column: span 4;
+}
+
+.grid-colspan2 {
+	background-color: #D0F3FF
+	grid-column: span 2;
+	text-align: justify:
+}
+.grid-colspan3 {
+	background-color: #D0F3FF
+	grid-column: span 3;
+	text-align: justify:
+}
+.grid-colspan1 {
+	background-color: #D0F3FF
+	grid-column: span 1;
+}
+
+h1 {
+	font-size:70px;
+}
+
+body {
+	background-color: #D0F3FF;
+	cursor:  cell; 
+}
+p {
+	font-family: "georgia", Times, serif;
+	font-size: 30px;
+}
+div {
+    background: linear-gradient(to bottom, #ccffff 0%, #ffccff 100%);
+}
+div {
+	padding-right: 30px;
+	padding-left: 30px;
+	}
+img {
+  display: inline-block;
+  margin: 25px 230px;
+}
